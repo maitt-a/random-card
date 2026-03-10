@@ -1,0 +1,33 @@
+body{
+    background:#4dc97c;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* ¿Por qué "vh" y no %? Porqué el vh quiere decir todo el viewport (HTML, espacio en el navegador) y el % se refiere a la altura del elemento padre */
+    height:100vh;
+}
+
+.card{
+    background:white;
+    width:200px;
+    height:300px;
+    border-radius:10px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-size:40px;
+}
+
+.top{
+    text-align:left;
+}
+
+.bottom{
+    text-align:right;
+}
+
+.number{
+    text-align:center;
+    font-size:60px;
+}
